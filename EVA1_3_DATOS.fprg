@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_3_DATOSS"/>
+        <attribute name="authors" value="diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-27 04:32:11 p. m."/>
+        <attribute name="created" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA4LTI3OzA0OjE0OjMwIHAuIG0uOzI1MzQ="/>
+        <attribute name="edited" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA4LTI3OzA0OjMyOjExIHAuIG0uOzE7MjY0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Nombre del estudiante:&quot;" newline="False"/>
+            <output expression="&quot;Diego Perez&quot;" newline="True"/>
+            <output expression="&quot;Numero de control:&quot;" newline="False"/>
+            <output expression="25550290" newline="True"/>
+            <output expression="&quot;Edad:&quot;" newline="False"/>
+            <output expression="17" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
