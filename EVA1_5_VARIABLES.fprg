@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_5_VARIABLESS"/>
+        <attribute name="authors" value="diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 04:44:59 p. m."/>
+        <attribute name="created" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA4LTI4OzA0OjEzOjQ2IHAuIG0uOzI1NDE="/>
+        <attribute name="edited" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA4LTI4OzA0OjQ0OjU5IHAuIG0uOzE7MjY1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Diego Rogelio Perez Hernandez&quot;"/>
+            <assign variable="edad" expression="17"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
