@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_12_I"/>
+        <attribute name="authors" value="diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-08 04:23:58 p. m."/>
+        <attribute name="created" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA5LTA4OzA0OjE3OjI1IHAuIG0uOzI1NDE="/>
+        <attribute name="edited" value="ZGllZ287Q0FQWVRPUDsyMDI1LTA5LTA4OzA0OjIzOjU4IHAuIG0uOzE7MjY1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calificacion" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tu calificacion&quot;" newline="True"/>
+            <input variable="calificacion"/>
+            <if expression="calificacion &gt;= 70">
+                <then>
+                    <output expression="&quot;Calificacion aprobatoria&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Calificacion no aprobatoria&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
